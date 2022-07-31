@@ -1,0 +1,105 @@
+.header {
+    /* display: flex; */
+    position: relative;
+    width: 1440px;
+    height: 710px;
+
+    background-color: #f1f1ff;
+    /* background-color: red; */
+}
+
+/* ONE */
+
+#one figure img {
+    position: absolute;
+    width: 209px;
+    height: 112.59px;
+    left: -70px;
+    /* left: -20%; */
+    top: 119px;
+}
+
+/* TWO */
+
+#two .stay {
+    position: absolute;
+    text-transform: uppercase;
+    top: 280px;
+    left: 416px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #3f465c;
+    text-shadow: 0px 8.1px 40.5px rgba(0, 0, 0, 0.1);
+}
+
+#two .new {
+    position: absolute;
+    text-transform: uppercase;
+    top: 300px;
+    left: 193px;
+
+    font-weight: 900;
+    font-size: 52.1804px;
+    line-height: 100%;
+    color: #3f465c;
+    text-shadow: 0px 10.2721px 51.3604px rgba(0, 0, 0, 0.1);
+}
+
+#two .lorem {
+    position: absolute;
+    top: 412px;
+    left: 193px;
+    width: 645px;
+    height: 112px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #172540;
+}
+
+#two .btns {
+    position: absolute;
+    top: 544px;
+    left: 193px;
+}
+
+#two .btns .btn {
+    background-color: rgb(251, 145, 108, 30%);
+    color: rgb(251, 145, 108, 100%);
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 100%;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+#two .btns .btn-1 {
+    width: 100px;
+}
+
+#two .btns .btn-2 {
+    width: 158px;
+}
+
+/* THREE */
+
+#three .group {
+    position: absolute;
+    left: 775px;
+    top: 53px;
+}
+
+#three .group-3 {
+    position: absolute;
+    /* top: 67.43%; */
+    top: 440px;
+    /* right: -5px; */
+    left: 1359px;
+    /* right: -16%; */
+}
