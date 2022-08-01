@@ -8,4 +8,4 @@ You can see the original project in figma here;
 And the live version of the decoded project here.
 [https://figma-to-html-css-1.netlify.app/](https://figma-to-html-css-1.netlify.app/)
 
-**This project is not responsive web design. It was created with the pc view in mind.**
+**This project is available responsive web design for 767 pixels above and below screens of 2 different sizes.**

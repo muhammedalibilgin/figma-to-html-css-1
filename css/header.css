@@ -1,11 +1,9 @@
 .header {
-    /* display: flex; */
     position: relative;
     width: 1440px;
     height: 710px;
 
     background-color: #f1f1ff;
-    /* background-color: red; */
 }
 
 /* ONE */
@@ -15,7 +13,6 @@
     width: 209px;
     height: 112.59px;
     left: -70px;
-    /* left: -20%; */
     top: 119px;
 }
 
@@ -97,9 +94,84 @@
 
 #three .group-3 {
     position: absolute;
-    /* top: 67.43%; */
     top: 440px;
-    /* right: -5px; */
     left: 1359px;
-    /* right: -16%; */
+}
+
+/* MOBİLE SYNC */
+
+@media screen and (max-width: 767px) {
+    .header {
+        max-width: 100%;
+        height: 710px;
+    }
+
+    /* ONE */
+
+    #one figure img {
+        height: 59px;
+        top: 70px;
+    }
+
+    /* TWO */
+
+    #two .stay {
+        top: 185px;
+        left: 86px;
+
+        font-size: 12px;
+    }
+
+    #two .new {
+        top: 200px;
+        left: 55px;
+        font-size: 24px;
+    }
+
+    #two .lorem {
+        top: 250px;
+        left: 55px;
+        font-size: 12px;
+
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #two .btns {
+        left: 55px;
+        top: 380px;
+    }
+
+    #two .btns .btn-1 {
+        width: 50px;
+    }
+
+    #two .btns .btn-2 {
+        width: 108px;
+    }
+
+    /* THREE */
+
+    #three .group {
+        /* left: 10px; */
+        left: auto;
+        right: 50px;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        top: 423px;
+    }
+
+    #three .group img {
+        height: 300px;
+        right: 0px;
+    }
+    #three .group-3 {
+        top: 590px;
+        left: auto;
+        right: 0;
+    }
+    #three .group-3 img {
+        height: 59px;
+    }
 }

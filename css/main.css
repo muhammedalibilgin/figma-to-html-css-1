@@ -86,3 +86,44 @@
 .main #text p {
     padding-bottom: 6px;
 }
+
+/* MOBİLE SYNC */
+
+@media screen and (max-width: 767px) {
+    .left-10 {
+        margin-left: 2px;
+    }
+    .main {
+        background-color: blue;
+        /* display: none; */
+        max-width: 100%;
+    }
+
+    /* COMMENTS-LİKE */
+
+    .main #comment-like {
+        display: inline;
+        left: 0px;
+        top: 10px;
+        width: 100%;
+    }
+
+    .main #comment-like .comment-like-user {
+        justify-content: center;
+    }
+
+    .main #comment-like .comment-like-total {
+        justify-content: center;
+    }
+
+    /* TEXT */
+
+    .main #text {
+        width: 100%;
+        top: 59px;
+        left: auto;
+
+        font-size: 12px;
+        align-items: center;
+    }
+}
